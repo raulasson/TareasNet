@@ -19,8 +19,8 @@ for (int i = 0; i < filas; i++)
 {
     for (int j = 0; j < colum; j++)
     {
-        Console.Write($"{numeros[i,j]}");
-        Console.Write("   ");
+        Console.Write($"{numeros[i,j]} \t");
+       // Console.Write("   ");
     }
     Console.WriteLine("");
 }
@@ -36,5 +36,5 @@ for (int i = 0; i < colum; i++)
 
 for (int i = 0; i < prom.Length; i++)
 {
-    Console.WriteLine($"el promedio de la comuna {i+1} es: {prom[i]}");
+    Console.WriteLine($"el promedio de la columna {i+1} es: {prom[i]}");
 }
